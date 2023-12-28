@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2023-12-28T13:46:06.976Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="67liEn-vdDMlKPvejO6L" version="22.1.15" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-28T13:47:28.825Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="AKN2UvCc_hYxqkOfcXca" version="22.1.15" type="github">
   <diagram name="第 1 页" id="i3KaRBKapHCzIAOb3I9q">
     <mxGraphModel dx="1891" dy="846" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="nP3D-EETBzw4hZik17a9-39" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;" vertex="1" parent="1">
+          <mxGeometry x="-70" y="210" width="680" height="700" as="geometry" />
+        </mxCell>
         <mxCell id="nP3D-EETBzw4hZik17a9-3" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nP3D-EETBzw4hZik17a9-1" target="nP3D-EETBzw4hZik17a9-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -71,6 +74,9 @@
         </mxCell>
         <mxCell id="nP3D-EETBzw4hZik17a9-35" value="验证人员" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
           <mxGeometry x="-160" y="738" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nP3D-EETBzw4hZik17a9-40" value="CAN总线协议安全验证平台" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-30" y="230" width="260" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
