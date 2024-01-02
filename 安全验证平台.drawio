@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-02T07:00:33.897Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="cNbd5-KLzN9RJ0SZ70Uo" version="22.1.15" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-02T07:02:01.009Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="HBZy6M0_pbRzxXBpleJT" version="22.1.15" type="github">
   <diagram name="第 1 页" id="i3KaRBKapHCzIAOb3I9q">
     <mxGraphModel dx="1731" dy="719" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -29,15 +29,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="nP3D-EETBzw4hZik17a9-4" value="构建安全攻击算法" style="ellipse;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
-          <mxGeometry x="240" y="280" width="80" height="80" as="geometry" />
+          <mxGeometry x="240" y="290" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="nP3D-EETBzw4hZik17a9-8" value="构建模糊测试算法" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="240" y="440" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="nP3D-EETBzw4hZik17a9-22" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="nP3D-EETBzw4hZik17a9-8" target="nP3D-EETBzw4hZik17a9-21" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="318.20545533114637" y="498.15334718414056" as="sourcePoint" />
-          </mxGeometry>
+          <mxGeometry x="240" y="461" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="nP3D-EETBzw4hZik17a9-28" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="nP3D-EETBzw4hZik17a9-8" target="nP3D-EETBzw4hZik17a9-27" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -71,14 +66,11 @@
         <mxCell id="nP3D-EETBzw4hZik17a9-19" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;设计开发智能车身控制&lt;/span&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;align=center;" parent="1" vertex="1">
           <mxGeometry x="240" y="798" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="nP3D-EETBzw4hZik17a9-21" value="设计测试用例" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="440" y="400" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="nP3D-EETBzw4hZik17a9-27" value="优化测试用例" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="440" y="480" width="80" height="80" as="geometry" />
+        <mxCell id="nP3D-EETBzw4hZik17a9-27" value="设计测试用例生成策略" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="440" y="420" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="nP3D-EETBzw4hZik17a9-29" value="评估测试有效性" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="440" y="560" width="80" height="80" as="geometry" />
+          <mxGeometry x="440" y="515" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="nP3D-EETBzw4hZik17a9-37" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="nP3D-EETBzw4hZik17a9-35" target="nP3D-EETBzw4hZik17a9-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -99,7 +91,7 @@
           <mxGeometry x="440" y="240" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="nP3D-EETBzw4hZik17a9-47" value="实施攻击" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="440" y="320" width="80" height="80" as="geometry" />
+          <mxGeometry x="440" y="340" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
