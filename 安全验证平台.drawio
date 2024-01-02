@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-02T11:57:34.338Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="gAOwysa3a6rhzVsEkAA9" version="22.1.15" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-02T12:08:58.456Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="ibsF6ESYjxWpyavvPe_y" version="22.1.15" type="github">
   <diagram name="第 1 页" id="i3KaRBKapHCzIAOb3I9q">
     <mxGraphModel dx="2853" dy="1129" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -170,7 +170,7 @@
         <mxCell id="cr5Kv8CpsJClSq2AT7y--26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=open;endFill=0;" edge="1" parent="1" source="cr5Kv8CpsJClSq2AT7y--3" target="cr5Kv8CpsJClSq2AT7y--25">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cr5Kv8CpsJClSq2AT7y--3" value="测试人员" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+        <mxCell id="cr5Kv8CpsJClSq2AT7y--3" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;测试人员&lt;/font&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
           <mxGeometry x="-180" y="1260" width="30" height="61" as="geometry" />
         </mxCell>
         <UserObject label="" plantUmlData="{&#xa;  &quot;data&quot;: &quot;@startuml\nleft to right direction\nactor \&quot;测试人员\&quot; as Tester\n\npackage \&quot;虚拟仪表盘系统\&quot; {\n  usecase \&quot;实时显示车辆数据\&quot; as UseCase1\n  usecase \&quot;验证基础仪表盘需求\&quot; as UseCase2\n}\n\nTester --&gt; UseCase1\nTester --&gt; UseCase2\n\nUseCase1 --&gt; (显示车速)\nUseCase1 --&gt; (显示发动机转速)\nUseCase1 --&gt; (显示油量)\nUseCase1 --&gt; (显示水温)\n\nUseCase2 --&gt; (验证速度显示)\nUseCase2 --&gt; (验证转速显示)\nUseCase2 --&gt; (验证油量显示)\nUseCase2 --&gt; (验证水温显示)\n\n@enduml\n&quot;,&#xa;  &quot;format&quot;: &quot;svg&quot;&#xa;}" id="cr5Kv8CpsJClSq2AT7y--4">
@@ -184,7 +184,7 @@
         <mxCell id="cr5Kv8CpsJClSq2AT7y--10" value="验证智能车身控制" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="440" y="920" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="cr5Kv8CpsJClSq2AT7y--22" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;安全测试子系统&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="cr5Kv8CpsJClSq2AT7y--22" value="&lt;b&gt;&lt;font style=&quot;font-size: 21px;&quot;&gt;安全测试子系统&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-60" y="1180" width="233" height="30" as="geometry" />
         </mxCell>
         <UserObject label="" plantUmlData="{&#xa;  &quot;data&quot;: &quot;@startuml\nleft to right direction\n\nactor \&quot;测试人员\&quot; as Tester\n\nrectangle \&quot;安全测试子系统\&quot; {\n  usecase \&quot;检验安全防御机制\&quot; as UseCase1\n  usecase \&quot;测试攻击情景下的稳定性\&quot; as UseCase2\n  usecase \&quot;生成模糊测试用例\&quot; as UseCase3\n  usecase \&quot;评估安全测试有效性\&quot; as UseCase4\n}\n\nTester --&gt; UseCase1\nTester --&gt; UseCase2\nTester --&gt; UseCase3\nTester --&gt; UseCase4\n\nUseCase1 --&gt; (执行安全防御机制检验)\nUseCase2 --&gt; (执行攻击情景测试)\nUseCase3 --&gt; (生成模糊测试用例)\nUseCase3 --&gt; (设定生成策略)\nUseCase4 --&gt; (设定判定条件)\nUseCase4 --&gt; (执行有效性评估)\n@enduml\n&quot;,&#xa;  &quot;format&quot;: &quot;svg&quot;&#xa;}" id="cr5Kv8CpsJClSq2AT7y--23">
@@ -192,10 +192,10 @@
             <mxGeometry x="-450" y="2410" width="551" height="394" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="cr5Kv8CpsJClSq2AT7y--25" value="&lt;div style=&quot;&quot;&gt;检验抵御恶意行为的能力&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+        <mxCell id="cr5Kv8CpsJClSq2AT7y--25" value="&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;检验安全防御机制&lt;/font&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
           <mxGeometry x="-10" y="1220" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="cr5Kv8CpsJClSq2AT7y--27" value="&lt;div style=&quot;&quot;&gt;检验抵御恶意行为的能力&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+        <mxCell id="cr5Kv8CpsJClSq2AT7y--27" value="&lt;div style=&quot;&quot;&gt;检验&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
           <mxGeometry x="-10" y="1321" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
