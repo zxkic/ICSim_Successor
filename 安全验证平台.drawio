@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-02T11:53:38.460Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="N_nR2hpbdvX1afPkjO0g" version="22.1.15" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-02T11:54:49.175Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="PiqfJTm4kpqHd_PVRMqI" version="22.1.15" type="github">
   <diagram name="第 1 页" id="i3KaRBKapHCzIAOb3I9q">
     <mxGraphModel dx="2853" dy="1129" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -56,26 +56,51 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="nP3D-EETBzw4hZik17a9-20" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="nP3D-EETBzw4hZik17a9-12" target="nP3D-EETBzw4hZik17a9-19" edge="1">
+        <mxCell id="nP3D-EETBzw4hZik17a9-20" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;dashed=1;" parent="1" source="nP3D-EETBzw4hZik17a9-12" target="nP3D-EETBzw4hZik17a9-19" edge="1">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cr5Kv8CpsJClSq2AT7y--37" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="nP3D-EETBzw4hZik17a9-20">
+          <mxGeometry x="0.2349" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="nP3D-EETBzw4hZik17a9-12" value="&lt;div style=&quot;&quot;&gt;实施安全验证&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;align=center;" parent="1" vertex="1">
           <mxGeometry x="35" y="728" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="nP3D-EETBzw4hZik17a9-42" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="nP3D-EETBzw4hZik17a9-16" target="nP3D-EETBzw4hZik17a9-41" edge="1">
+        <mxCell id="nP3D-EETBzw4hZik17a9-42" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;dashed=1;" parent="1" source="nP3D-EETBzw4hZik17a9-16" target="nP3D-EETBzw4hZik17a9-41" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cr5Kv8CpsJClSq2AT7y--7" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="nP3D-EETBzw4hZik17a9-16" target="cr5Kv8CpsJClSq2AT7y--5">
+        <mxCell id="cr5Kv8CpsJClSq2AT7y--33" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="nP3D-EETBzw4hZik17a9-42">
+          <mxGeometry x="0.0192" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cr5Kv8CpsJClSq2AT7y--7" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=open;endFill=0;dashed=1;" edge="1" parent="1" source="nP3D-EETBzw4hZik17a9-16" target="cr5Kv8CpsJClSq2AT7y--5">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cr5Kv8CpsJClSq2AT7y--34" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cr5Kv8CpsJClSq2AT7y--7">
+          <mxGeometry x="0.0438" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="nP3D-EETBzw4hZik17a9-16" value="设计开发虚拟仪表盘" style="ellipse;whiteSpace=wrap;html=1;direction=south;" parent="1" vertex="1">
           <mxGeometry x="240" y="658" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="nP3D-EETBzw4hZik17a9-44" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="nP3D-EETBzw4hZik17a9-19" target="nP3D-EETBzw4hZik17a9-43" edge="1">
+        <mxCell id="nP3D-EETBzw4hZik17a9-44" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;dashed=1;" parent="1" source="nP3D-EETBzw4hZik17a9-19" target="nP3D-EETBzw4hZik17a9-43" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cr5Kv8CpsJClSq2AT7y--11" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nP3D-EETBzw4hZik17a9-19" target="cr5Kv8CpsJClSq2AT7y--10">
+        <mxCell id="cr5Kv8CpsJClSq2AT7y--35" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="nP3D-EETBzw4hZik17a9-44">
+          <mxGeometry x="-0.2617" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cr5Kv8CpsJClSq2AT7y--11" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;dashed=1;" edge="1" parent="1" source="nP3D-EETBzw4hZik17a9-19" target="cr5Kv8CpsJClSq2AT7y--10">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cr5Kv8CpsJClSq2AT7y--36" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cr5Kv8CpsJClSq2AT7y--11">
+          <mxGeometry x="0.0176" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="nP3D-EETBzw4hZik17a9-19" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;设计开发智能车身控制&lt;/span&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;align=center;" parent="1" vertex="1">
           <mxGeometry x="240" y="870" width="80" height="80" as="geometry" />
@@ -124,7 +149,7 @@
           </mxCell>
         </UserObject>
         <mxCell id="cr5Kv8CpsJClSq2AT7y--5" value="验证仪表盘显示" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="440" y="718" width="80" height="80" as="geometry" />
+          <mxGeometry x="440" y="700" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="cr5Kv8CpsJClSq2AT7y--10" value="验证智能车身控制" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="440" y="920" width="80" height="80" as="geometry" />
